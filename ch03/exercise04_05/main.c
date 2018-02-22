@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define SUCCESS 0
+static const SUCCESS = 0;
 
 /*Method to multiply two numbers, and returns the result*/
 int multiply_numbers(int a, int b)
