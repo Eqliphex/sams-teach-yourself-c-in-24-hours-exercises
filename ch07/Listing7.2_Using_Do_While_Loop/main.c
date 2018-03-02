@@ -1,6 +1,5 @@
 /*
-07L01: Using a do-while loop.
-
+07L02: Using a do-while loop.
 */
 
 #include <stdio.h>
