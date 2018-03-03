@@ -16,7 +16,7 @@ int main()
 
 	result = ++w;
 	printf("++w evaluates to %d and w is now %d\n", result, w);
-
+	
 	result = x++;
 	printf("x++ evaluates to %d and x is now %d\n", result, x);
 		
