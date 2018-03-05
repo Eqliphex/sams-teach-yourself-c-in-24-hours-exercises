@@ -1,5 +1,5 @@
 /*
-08E01:
+08L01:
 Using the sizeof operator
 */
 
