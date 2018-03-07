@@ -22,6 +22,7 @@ int main()
 	printf("Given the values: x = %d, and y = %d\n\n", x, y);
 	
 	printf("Using left shift on x << y yields: %d\n", z = x << y);
+	
 	printf("\n1. Operation: %d * 2\n", x);
 	printf("After 1. shift:\n2 * %d = %d\n", x, newValue = x * 2);
 	oldValue = newValue;
@@ -56,6 +57,7 @@ int main()
 	printf("\n4. Operation: %d / 2 / 2 / 2 / 2\n", x);
 	printf("After 4. shift:\n2 / %d = %d\n", oldValue, newValue /= 2);
 	oldValue = newValue;
+	
 	getchar();
 	return SUCCESS;
 }
