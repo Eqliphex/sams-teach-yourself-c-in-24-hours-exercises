@@ -1,8 +1,8 @@
 /*
-08E03:
-Given x = 123 and y = 4, write a program that displays
-the results of the expressions x << y and x >> y.
-Remember: left-side is shifted right-side amount of times
+08E04:
+Write a program that shows the values (in hex) 
+of the expressions
+0xFFFF^0x8888, 0xABCD & 0x4567, and 0xDCBA | 0x1234
 */
 
 #include <stdio.h>
