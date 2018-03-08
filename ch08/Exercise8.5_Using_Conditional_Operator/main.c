@@ -31,7 +31,7 @@ int main()
 
 
 	/*
-	//Is the same as the following while-loop:
+	Is the same as the following while-loop:
 	*/
 	
 	int y = 0;
