@@ -8,11 +8,8 @@
 
 int main()
 {
-	double doubleValue;
-
 	double degree = 45.0;    
 	
-
 	degree *= M_PI / 180; // Convert to radians
 
 	printf("The sine of 45 is:     %f.\n", sin(degree));
