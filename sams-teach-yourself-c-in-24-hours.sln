@@ -117,7 +117,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listing9.1_Modifying_Data_w
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listing9.2_Modifying_data_with_short_and_long", "Listing9.2_Modifying_data_with_short_and_long\Listing9.2_Modifying_data_with_short_and_long.vcxproj", "{86E7C474-8E68-41C5-8C00-FD787A7A63A8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listing9.3_Using_h_l_and_u_specifiers", "Listing9.3_Using_h_l_and_u_specifiers\Listing9.3_Using_h_l_and_u_specifiers.vcxproj", "{53D140C5-69C8-4C71-B247-60D0D765AC23}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listing9.3_Using_h_l_and_u_specifiers", "ch09\Listing9.3_Using_h_l_and_u_specifiers\Listing9.3_Using_h_l_and_u_specifiers.vcxproj", "{53D140C5-69C8-4C71-B247-60D0D765AC23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
