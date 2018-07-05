@@ -1,0 +1,34 @@
+
+1. Given an int variable x and an unsigned int variable y, as well as x = 0x8765
+and y = 0x8765, and if the leftmost bit is used as a sign bit, is x equal to y?
+
+Answer: 
+No, they are not equal since the binary representation: 
+0b1000 0111 0110 0101
+Shows that the leftmost bit is occupied in 0x8765
+Therefore, the unsigned variable y = 0x8765 would yield 34661 
+while the signed variable x = 0x8765 yields -30875.
+
+
+2. What should you do if you try to assign a large value to an int variable, but the
+value you assign is too large and you end up with a negative number that you
+didn’t expect?
+
+Answer:
+You should convert the variable to a unsigned type, but with the consequence 
+that you can't store negative values in the variable anymore.
+
+
+3. Which format specifier, %ld or %lu, should be used to specify an unsigned long
+int variable?
+
+Answer:
+For specifying unsigned long, you would use the %lu specifier.
+The other specifier is for signed long int
+
+
+4. What is the name of the header file you have to include if you’re calling some C
+math functions from your C program?
+
+Answer:
+The name of the header file containing math functions is "math.h"

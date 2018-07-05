@@ -112,6 +112,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise8.5_Using_Conditional_Operator", "ch08\Exercise8.5_Using_Conditional_Operator\Exercise8.5_Using_Conditional_Operator.vcxproj", "{7CE75FCD-33A5-454C-83D0-70E5C2C70A02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch09", "ch09", "{457C9258-A1A8-428E-A245-5D4B842B002E}"
+	ProjectSection(SolutionItems) = preProject
+		ch09\ch09quiz.txt = ch09\ch09quiz.txt
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listing9.1_Modifying_Data_with_Signed_and_Unsigned", "ch09\Listing9.1_Modifying_Data_with_Signed_and_Unsigned\Listing9.1_Modifying_Data_with_Signed_and_Unsigned.vcxproj", "{C64B48AC-2F3E-4D78-B41A-988EE3982BF9}"
 EndProject
