@@ -27,7 +27,7 @@ int main()
 /*
 * Explanation:
 *
-* The numbers mean "how many bytes does this type take"
+* The numbers mean "how many bytes of memory does this type take"
 *                                |  Byte  |  Byte  |
 * short int takes 2 bytes i.e. 0b0000 0000 0000 0000
 *                               |  Byte  |   Byte  |  Byte   |  Byte  |
