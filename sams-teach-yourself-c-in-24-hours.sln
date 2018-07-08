@@ -128,7 +128,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listing9.5_Applying_Pow_and
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise9.1_Display_Decimal_Value", "ch09\Exercise9.1_Display_Decimal_Value\Exercise9.1_Display_Decimal_Value.vcxproj", "{F7F33F62-23A4-4569-8E58-1DE7C17EEA4E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise9.2_Type_Size", "Exercise9.2_Type_Size\Exercise9.2_Type_Size.vcxproj", "{F2E51787-F894-4A54-947D-AE3143F4710D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise9.2_Type_Size", "ch09\Exercise9.2_Type_Size\Exercise9.2_Type_Size.vcxproj", "{F2E51787-F894-4A54-947D-AE3143F4710D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
