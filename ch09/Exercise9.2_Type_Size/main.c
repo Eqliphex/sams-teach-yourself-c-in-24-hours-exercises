@@ -1,4 +1,4 @@
-﻿/* 09E02: Given the following statements,
+﻿/* 09E02:
 * Write a program to measure the sizes of short int, long int, and long double
 * on your machine
 */
