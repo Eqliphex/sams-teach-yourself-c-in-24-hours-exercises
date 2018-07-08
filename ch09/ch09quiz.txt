@@ -23,8 +23,8 @@ that you can't store negative values in the variable anymore.
 int variable?
 
 Answer:
-For specifying unsigned long, you would use the %lu specifier.
-The other specifier is for signed long int
+For specifying (unsigned long), you would use the %lu specifier.
+The other specifier %ld is for (signed long int)
 
 
 4. What is the name of the header file you have to include if you’re calling some C

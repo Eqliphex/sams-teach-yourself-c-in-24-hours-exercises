@@ -1,4 +1,4 @@
-/* 09L02: Using short and long modifiers */
+﻿/* 09L02: Using short and long modifiers */
 #include<stdio.h>
 
 #define SUCCESS 0
@@ -13,3 +13,13 @@ int main()
 
 	return SUCCESS;
 }
+
+/*
+* Output:
+*
+* → The size of short int is: 2.
+* → The size of long int is: 4.
+* → The size of float is: 4.
+* → The size of double is: 8.
+* → The size of long double is: 8.
+*/
