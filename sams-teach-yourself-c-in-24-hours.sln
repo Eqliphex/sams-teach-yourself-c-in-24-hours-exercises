@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch02", "ch02", "{626F43CC-1A5A-4D1E-8A15-78070647D283}"
+	ProjectSection(SolutionItems) = preProject
+		ch02\ch02quiz.txt = ch02\ch02quiz.txt
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise02", "ch02\exercise02\exercise02.vcxproj", "{10816769-F2A0-4C27-85F1-B0E93C266FF6}"
 EndProject

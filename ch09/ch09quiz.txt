@@ -1,3 +1,5 @@
+Quiz answers for chapter 09
+
 
 1. Given an int variable x and an unsigned int variable y, as well as x = 0x8765
 and y = 0x8765, and if the leftmost bit is used as a sign bit, is x equal to y?

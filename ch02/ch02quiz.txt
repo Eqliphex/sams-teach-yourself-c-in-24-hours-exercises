@@ -1,0 +1,23 @@
+Quiz answers for chapter 02
+
+
+1. Can a C compiler see the comments within your C program?
+
+Answer: 
+No, the preprocessor 
+
+
+2. What kind of files does a C compiler actually produce?
+
+Answer:
+
+
+
+3. Does the exit() function return a value? What about the return statement?
+
+Answer:
+
+
+4. What is a header file?
+
+Answer:
