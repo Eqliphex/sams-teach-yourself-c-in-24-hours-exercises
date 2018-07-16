@@ -6,11 +6,12 @@ Using shift operators
 #include <stdio.h>
 
 #define SUCCESS 0
+#define ARRAYSIZE 100
 
 /*Helper method to show the decimals as a binary string for clarity*/
 void decimal_to_binary_converter(int n)
 {
-	int binaryNumArray[100];
+	int binaryNumArray[ARRAYSIZE];
 
 	int arrayIndex = 0;
 	while (n > 0) {
