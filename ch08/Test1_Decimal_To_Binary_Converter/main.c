@@ -58,7 +58,7 @@ Recursionstack:
 1: ((2 % 2) + 10 * convert_decimal_to_binary(2 / 2))
 2: 1
 
-1: ((2 % 2) + 10 * 1)) <=> 0 + 10 
+1: ((2 % 2) + 10 * 1)) => 0 + 10 
 
 Output:
  → 10
