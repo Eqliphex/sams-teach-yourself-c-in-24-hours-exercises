@@ -5,6 +5,12 @@
 int main()
 {
 	printf("It's fun to write my own program!");
-	getchar();
+	
 	return SUCCESS;
 }
+
+/*
+* Output:
+*
+* → It's fun to write my own program!
+*/
