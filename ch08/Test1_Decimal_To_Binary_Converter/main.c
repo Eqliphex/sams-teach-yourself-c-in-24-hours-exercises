@@ -17,6 +17,54 @@ unsigned int convert_decimal_to_binary(unsigned int decimal)
 	return (decimal == 0 || decimal == 1 ? decimal : ((decimal % 2) + 10 * convert_decimal_to_binary(decimal / 2)));
 }
 
+/*
+Example 1:
+convert_decimal_to_binary(1) =
+
+1. recursionlayer
+return ( 1 == 0 || 1 == 1 ? 1 : ((1 % 2) + 10 * convert_decimal_to_binary(1 / 2)));
+
+Since the first condition is returning true with 1 == 1, then the number '1' is just returned
+
+
+Output:
+ → 1
+((Program Terminated))
+*/
+
+/*
+Example 2:
+convert_decimal_to_binary(2) =
+
+Recursionstack:
+0x0
+
+1. recursionlayer
+return ( 2 == 0 || 2 == 1 ? 2 : ((2 % 2) + 10 * convert_decimal_to_binary(2 / 2)));
+
+Since the condition is false, then the method is called recursivly, and 1. layer is waiting for a returned value.
+
+Recursionstack:
+1: ((2 % 2) + 10 * convert_decimal_to_binary(2 / 2))
+
+2. recursionlayer
+Input: convert_decimal_to_binary(1) =
+
+return ( 2 == 0 || 2 == 1 ? 1 : ((1 % 2) + 10 * convert_decimal_to_binary(1 / 2)));
+
+Since the termination rule is fulfilled with 1, the value is returned to the above laying layer.
+
+Recursionstack:
+1: ((2 % 2) + 10 * convert_decimal_to_binary(2 / 2))
+2: 1
+
+1: ((2 % 2) + 10 * 1)) <=> 0 + 10 
+
+Output:
+ → 10
+((Program Terminated))
+*/
+
 void convert_decimal_to_binary_bitshift(unsigned int decimal)
 {
 	unsigned int bit;
