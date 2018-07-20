@@ -1,0 +1,8 @@
+Is #include <stdio.h> the same as #include “stdio.h”?
+
+Answer: 
+No. The angle brackets (< and >) in the #include <stdio.h> expression ask the C
+preprocessor to look for a header file in a directory other than the current one. On
+the other hand, the #include “stdio.h” expression tells the C preprocessor to
+check the current directory first for the header file stdio.h, and then look for the
+header file in another directory.

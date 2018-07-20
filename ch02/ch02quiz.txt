@@ -4,20 +4,22 @@ Quiz answers for chapter 02
 1. Can a C compiler see the comments within your C program?
 
 Answer: 
-No, the preprocessor 
+No, the preprocessor filters the comments away before the C compiler i running, more often than not, it replaces the whole comment with a whitespace character. 
 
 
 2. What kind of files does a C compiler actually produce?
 
 Answer:
-
+The C compiler is creating an object file, which in itself is not something we can just run. It needs a linker, which often is packaged with the compiler.
 
 
 3. Does the exit() function return a value? What about the return statement?
 
 Answer:
-
+The exit() function does NOT return any value, the File buffers are flushed, streams are closed, and temporary files are deleted.
+The return statement enables C to return a value for further usage. All functions can return a value.
 
 4. What is a header file?
 
 Answer:
+A file containing data and function declarations. It ends with the extension .h 
