@@ -1,4 +1,4 @@
-Quiz answers for chapter 02
+Quiz answers for chapter 03
 
 
 1. Can a C compiler see the comments within your C program?

@@ -1,0 +1,53 @@
+Quiz answers for chapter 03
+
+
+1.  In the C language, is 74 a constant? How about 571?
+
+Answer: 
+Yes. Both 74 and 571 are constants in C, the reason being that the integers 74 and 571, always will represent the values 74 and 571.
+
+
+2. Is x = 570 + 1 an expression? How about x = 12 + y?
+
+Answer:
+Yes. Both x = 571 + 1 and x = 12 + y are expressions. 
+This can be seen with the "=" sign, which denotes that the value "x" is assigned the symbols to the right of the "=" sign. 
+
+
+3. Are the following function names valid?
+2methods
+m2_algorithm
+*start_function
+Room_Size
+.End_Exe
+_turbo_add
+
+Answer:
+2methods is not valid because it would confuse the compiler that strings of digits would prefix the variable, 
+*start_function is not valid because the "*" is reserved to pointer notation. 
+.End_Exe are not valid because the "."-notation is used to reference properties.
+
+
+4. Is 2 + 5 * 2 equal to (2 + 5) * 2?
+
+Answer:
+No. 2 + 5 * 2 is equivalent to 2 + 10, which gives 12; (2 + 5) * 2 is equivalent to 7 * 2, which produces 14. 
+This is abiding to the "operator precedence"-rule defined in mathematics.
+
+
+5. Does 7 % 2 produce the same result as 4 % 3?
+
+Answer:
+Yes. Both 7 % 2 and 4 % 3 produce 1
+
+Observe the following:
+"How many times can we fit 2 into 7?"
+2 + 2 + 2 = 6
+
+"We cannot add anymore 2's into the number 7, as that would result in the number 8.
+Therefore, we have 1 REMAINDER, which we could add to the 6 to get 7."
+
+"Modulo has the property, that it returns this remainder from the operation, thus 7 % 2 = 1"
+
+"4 % 3 = 1, is therefore correct since we only can 'put' one 3 into 4 before we would overrun."
+
