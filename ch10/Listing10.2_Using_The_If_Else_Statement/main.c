@@ -1,28 +1,23 @@
-﻿/* 10L04:
-* Using switch-statements to print days.
+﻿/* 10L02:
+* Using if-else-statements to print even and odd numbers.
 */
 #define SUCCESS 0
+#define LOWER_LIMIT 0
+#define UPPER_LIMIT 10
 
 #include <stdio.h>
 
 
 int main()
 {
-	printf("Please enter a single digit for a day\n");
-	printf("(within the range of 1 to 3):\n");
+	printf("Even Number   Odd Number\n");
 
-	const int input_day = getchar();
-
-	switch (input_day)
+	for(int index = LOWER_LIMIT; index < UPPER_LIMIT; index++)
 	{
-		case '1':
-			printf("Day 1\n");
-		case '2':
-			printf("Day 2\n");
-		case '3':
-			printf("Day 3\n");
-		default:
-			printf("That is not a valid input!\n");
+		if (index % 2 == 0)
+			printf("%d", index);
+		else
+			printf("%14d\n", index);
 	}
 
 	return SUCCESS;
@@ -31,8 +26,10 @@ int main()
 /*
 * Output:
 * 
-* → Please enter a single digit for a day
-* → (within the range of 1 to 3):
-* ←	3
-* → Day 3
+* → Even Number   Odd Number
+* → 0			  1
+* → 2             3
+* → 4             5
+* → 6             7
+* → 8             9
 */
