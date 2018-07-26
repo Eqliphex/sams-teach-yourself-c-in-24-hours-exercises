@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-static const SUCCESS = 0;
+#define SUCCESS 0
 
 /*Method to multiply two numbers, and returns the result*/
 int multiply_numbers(int a, int b)
@@ -10,14 +10,11 @@ int multiply_numbers(int a, int b)
 
 int main()
 {
-	int first_value = 4;
-	int second_value = 5;
-	int sum;
+	const int first_value = 4, second_value = 5;
 
-	sum = multiply_numbers(first_value, second_value);
+	const int sum = multiply_numbers(first_value, second_value);
 
 	printf("Product of %d and %d is: %d", first_value, second_value, sum);
-	
-	getchar();
+
 	return SUCCESS;
 }
