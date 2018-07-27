@@ -1,5 +1,6 @@
 ﻿/* 10L04:
 * Using switch-statements to print days.
+* NOTE: If the input '1' is given, the switch statement will execute the all the subsequent cases, since there is no break-statement given in any of them. 
 */
 #define SUCCESS 0
 
@@ -33,6 +34,9 @@ int main()
 *
 * → Please enter a single digit for a day
 * → (within the range of 1 to 3):
-* ←	3
+* 
+* ←	1
+* → Day 1
+* → Day 2
 * → Day 3
 */
